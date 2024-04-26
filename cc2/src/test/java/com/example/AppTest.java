@@ -44,7 +44,7 @@ public class AppTest {
 
     @Test(priority = 0)
     public void Test1() throws Exception {
-        FileInputStream fs = new FileInputStream("D:");
+        FileInputStream fs = new FileInputStream("D:\\mysheet.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fs);
         XSSFSheet sheet = workbook.getSheet("CC2");
         XSSFRow row = sheet.getRow(0);
